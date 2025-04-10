@@ -1,10 +1,7 @@
 // Elabore um programa de computador que acesse e altere os dados armazenados na memoria utilizando
 // as expressões aritmieticas, logicas e relacionais. 
 
-
-
 // 001 pegar os valores do Sensor de temperatura e pressão
-
 #include <iostream>
 using namespace std;
 
@@ -27,4 +24,3 @@ int pressaoAjustada;     // guardar um valor modificado pela variavel pressao
 bool sistemasDeSegurancaAtivo; // verifica se o ssitema foi ativo
 
 
-//
