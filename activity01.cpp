@@ -1,11 +1,12 @@
 // Elabore um programa de computador que acesse e altere os dados armazenados na memoria utilizando
-// as expressões aritmieticas, logicas e relacionais. 
+// as expressões aritmieticas, logicas e relacionais.
+
 
 // 001 pegar os valores do Sensor de temperatura e pressão
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() { //inicio do main, onde ira as linhas do codigo 
     //Essa sao as variaeis de armazenamento na memoria
     int temperatura; // temperadura media
     int pressao;     // pressão media em pascal
@@ -45,4 +46,4 @@ cout << "Sistema de segurança: " << (sistemasDeSegurancaAtivo ? "Ativado" : "De
 
    return 0;
 
-}
+} //final do main
